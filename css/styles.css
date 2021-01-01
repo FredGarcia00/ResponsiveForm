@@ -11,7 +11,7 @@
   --small-font-size: 0.813rem;
 }
 
-@media scren and(min-width: 768px) {
+@media screen and(min-width: 768px) {
   :root {
     --normal-font-size: 1rem;
     --small-font-size: 0.875rem;
@@ -197,6 +197,12 @@ img {
 
 /* media queries */
 
+@media screen and (min-width: 280px) {
+  .login__input {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 576px) {
   .login__forms {
     width: 348px;
@@ -218,28 +224,29 @@ img {
   }
 
   .login__img {
-      display: flex;
-      width: 600px;
-      height: 588px;
-      background-color: var(--first-color-lighten);
-      border-radius: 1rem;
-      padding-left: 1rem;
+    display: flex;
+    width: 600px;
+    height: 588px;
+    background-color: var(--first-color-lighten);
+    border-radius: 1rem;
+    padding-left: 1rem;
   }
 
-  .login__img img{
-      width: 390px;
-      margin-top: 0;
-  } 
+  .login__img img {
+    width: 390px;
+    margin-top: 0;
+  }
 
-  .login__registre, .logi__create{
-      left: -11rem;
+  .login__registre,
+  .logi__create {
+    left: -11rem;
   }
 
   .login__registre {
-      bottom: -2rem;
+    bottom: -2rem;
   }
 
-  .login__create{
-      bottom: -5.5rem;
+  .login__create {
+    bottom: -5.5rem;
   }
 }
